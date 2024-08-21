@@ -62,7 +62,7 @@ function TodoApp(){
                     (item,i)=>{ 
                         return ( <li key={item.id} className="list-group-item">
                         <p>{item.task}</p>
-                        <button className="btn float-right" onClick={()=>{
+                        <button className="btn float-end" onClick={()=>{
                             deleeTodo(item.id);
                         }}>❌</button>
                     </li>
